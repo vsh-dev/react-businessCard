@@ -52,7 +52,7 @@ body {
 .info--buttons-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 0 35px;
+  padding: 0 15px;
   margin-bottom: 35px;
 }
 .info--button {
