@@ -14,8 +14,7 @@ body {
   margin: 0 auto;
   max-width: 320px;
   padding: 10px;
-  border: 2px solid rgb(33, 155, 255);
-  border-radius: 1%;
+  background-color: #1a1b21;
 }
 .info--title,
 .info--subtitle,
@@ -52,7 +51,7 @@ body {
 .info--buttons-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: 0 25px;
   margin-bottom: 35px;
 }
 .info--button {
@@ -113,6 +112,8 @@ body {
 .footer {
   background-color: #161619;
   padding: 25px 0;
+  margin: -10px;
+  border-radius: 0 0 15px 15px;
 }
 .social--list {
   display: flex;
