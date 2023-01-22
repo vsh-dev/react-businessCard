@@ -13,15 +13,15 @@ export default function Info() {
         laurasmith.website
       </a>
       <div className="info--buttons-wrapper">
-        <button className="info--button">
+        <button className="info--button bg--white ">
           <img src={emailIcon} alt="" className="info--button-logo" />
-          <a href="" className="info--button-link">
+          <a href="#" className="info--button-link text--gray">
             Email
           </a>
         </button>
-        <button className="info--button">
+        <button className="info--button bg--blue">
           <img src={linkedinIcon} alt="" className="info--button-logo" />
-          <a href="" className="info--button-link">
+          <a href="#" className="info--button-link text--white">
             LinkedIn
           </a>
         </button>
