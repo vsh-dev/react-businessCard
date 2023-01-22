@@ -13,6 +13,9 @@ body {
 .container {
   margin: 0 auto;
   max-width: 320px;
+  padding: 10px;
+  border: 2px solid rgb(33, 155, 255);
+  border-radius: 1%;
 }
 .info--title,
 .info--subtitle,
@@ -21,6 +24,8 @@ body {
 }
 .info--photo {
   margin-bottom: 20px;
+  display: block;
+  max-width: 100%;
 }
 .info--title {
   color: #ffffff;
@@ -103,4 +108,16 @@ body {
   line-height: 15px;
   font-weight: 400;
   color: #dcdcdc;
+}
+
+.footer {
+  background-color: #161619;
+  padding: 25px 0;
+}
+.social--list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  list-style-type: none;
 }
